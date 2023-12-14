@@ -1,0 +1,69 @@
+/*001*/
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2vw;
+    grid-auto-rows: minmax(100px, auto);
+    padding:2%;
+    text-align: center;
+}
+/*002*/
+section > img {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*002*/
+section > h3 {
+    margin: auto;
+}
+/*002*/
+section > p {
+    margin: auto;
+}
+/*001*/
+audio  {
+    margin: auto;
+}
+/*100*/
+#section5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2vw;
+    grid-auto-rows: minmax(100px, auto);
+    padding:2%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /*001*/
+    section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2vw;
+        grid-auto-rows: minmax(100px, auto);
+        padding:2%;
+        text-align: center;
+    }
+    /*100*/
+    #section5 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2vw;
+        grid-auto-rows: minmax(100px, auto);
+        padding:2%;
+        text-align: center;
+    }
+    /*003*/
+    section > a > button {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+        background-color:rgb(134, 194, 250);
+    }
+    /*004*/
+    section > a > button > p {
+        font-size: 2vw;
+    }
+
+  }

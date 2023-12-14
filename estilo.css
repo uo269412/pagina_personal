@@ -1,0 +1,151 @@
+  /*001*/
+body {
+    max-width: 80rem;
+    margin: auto;
+    font-family: "Optima", sans-serif;
+    padding:2%;
+    font-size:1vw;
+    background-color:white;
+    color:#003049;
+}
+/*001*/
+h1 {
+    color:#27187e;
+    border-radius: 1em;
+    text-transform: uppercase;
+    padding: 5%;
+    font-size: 400%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #f1f2f6;
+    text-align: center;
+}
+/*001*/
+h2 {
+    color:#758bfd;
+    font-size: 150%;
+    text-transform: uppercase;
+    background-color:white;
+}
+
+/*001*/
+h3 {
+    color:#6a71a1;
+    text-transform: uppercase;
+    background-color:white;
+}
+/*002*/
+button > p {
+    font-size:1.2vw;
+}
+/*001*/
+footer {
+    margin-top: 10%;
+    text-align: center;
+}
+/*001*/
+address {
+    text-align: center;
+}
+/*001*/
+nav {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+}
+/*011*/
+a:link{
+    color:rgb(14, 61, 119);
+    font-size:1vw;
+}
+/*001*/
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2vw;
+    grid-auto-rows: minmax(100px, auto);
+    padding:2%;
+    text-align: center;
+}
+/*011*/
+a:visited{
+    color:rgb(6, 49, 99);
+    font-size:1vw;
+}
+/*003*/
+section > a > button {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    border-radius: 12px;
+    background-color:rgb(134, 194, 250);
+    padding: 5%
+}
+/*003*/
+nav > a > button {
+    background-color:rgb(196, 196, 196);
+    border-radius: 1em;
+    padding: 2%;
+    margin: 0.5vw;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*100*/
+#selected{
+    background-color:rgb(12, 114, 209);
+    color:rgb(255, 255, 255);
+}
+/*100*/
+#breadcrumb {
+    color:#002aff;
+    text-transform: uppercase;
+    font-size: 100%;
+    background-color:white;
+}
+/*001*/
+img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
+    margin: 20px auto;
+}
+  @media only screen and (max-width: 768px) {
+    /*001*/
+    body {
+        max-width: 30rem;
+        margin: auto;
+        font-family: "Optima", sans-serif;
+        padding:2%;
+        font-size:2vw;
+        background-color:white;
+        color:#003049;
+    }
+    /*002*/
+    ul > li {
+        font-size:2vw;
+    }
+    /*001*/
+    nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.2vw;
+        grid-auto-rows: minmax(100px, auto);
+        padding:2%;
+        text-align: center;
+    }
+    /*004*/
+    nav > a > button > p{
+        font-size: 2vw;
+    }
+    /*001*/
+    img {
+        display: block;
+        width: 50%;
+        height: 50%;
+        max-width: 100%;
+        max-height: 90%;
+
+    }
+
+  }
